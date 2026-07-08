@@ -28,7 +28,7 @@ def validate():
     
     print("Running validation tests...\n" + "-"*30)
     for i, (intervals, expected) in enumerate(test_cases, start=1):
-        # Using a deep copy to keep original test list safe across sort calls
+        # Using a deep copy to keep original test list safe across sort callsṇṇ
         intervals_copy = [item.copy() for item in intervals]
         result = solve.removeCoveredIntervals(intervals_copy)
         if result == expected:
@@ -37,4 +37,4 @@ def validate():
             print(f"Test {i}: FAILED (Expected: {expected}, Got: {result})")
 
 if __name__ == '__main__':
-    validate()
+    validate() 
