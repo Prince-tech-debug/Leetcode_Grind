@@ -15,3 +15,4 @@ class Solution:
             res += (sum(j) * (i+1))
         print(levels)
         return res
+
